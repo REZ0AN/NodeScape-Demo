@@ -74,4 +74,7 @@ docker run -it -d -p 8080:80 <dockerhub-username>/<repository-name>:latest
 
 ## CI/CD Pipeline (Auto Push)
 
-Get the necessary credentials (give read, write and delete permission) from the Docker Hub. And put the secrets on the github secrets. Then you're good to go. 
+ - Get Access Token with your docker hub user account.
+ - Setup Username and Access Token as Secret Variables in Github Repository.
+ - Write the Github Action Workflow yml file.
+ - Make the action run on every push on the main branch.
