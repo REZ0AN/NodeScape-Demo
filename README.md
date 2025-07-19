@@ -74,4 +74,4 @@ docker run -it -d -p 8080:80 <dockerhub-username>/<repository-name>:latest
 
 ## CI/CD Pipeline (Auto Push)
 
-Get the necessary credentials from the Docker Hub. And put the secrets on the github secrets. Then you're good to go.
+Get the necessary credentials (give read, write and delete permission) from the Docker Hub. And put the secrets on the github secrets. Then you're good to go. 
